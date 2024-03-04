@@ -1,5 +1,17 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+### Развертывание.
+1. Должны быть свободны порты 3000 и 3001
+2. Дальше уже можно работать по инструкции через `npm run start` и `npm run dev`
+
+## Необходимые env
+`
+NEXT_PUBLIC_API_URL=http://localhost:3001
+`
+
+
+
+
 ## Getting Started
 
 First, run the development server:
