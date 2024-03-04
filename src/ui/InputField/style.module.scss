@@ -1,0 +1,33 @@
+.wrapper {
+}
+.label {
+  font-size: 12px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.inputWrapper {
+  position: relative;
+}
+.input {
+  display: block;
+  outline: none;
+  padding: 8px 5px 2px 5px;
+  border-radius: 4px 4px 0 0;
+  background: none;
+  border: none;
+  border-bottom: 2px solid var(--order-color);
+  color: var(--text-color);
+  transition: 0.3s;
+  width: 100%;
+  &:hover {
+    background: var(--card-hover-color);
+  }
+  &:focus {
+    background: var(--main-hover-color);
+    border-color: var(--sub-hover-color);
+  }
+}
+.error {
+  color: var(--error-text-color);
+  font-size: 13px;
+}

@@ -1,0 +1,36 @@
+:root {
+  /* Color styles */
+  --main-color: #ee10b0;
+  --sub-color: #0e9eef;
+  --card-backgorund: #0e1920;
+  --card-backgorund-2: #3b3b3b;
+  --text-color: #ffff;
+  --order-color: #535353;
+
+  --card-hover-color: rgba(110, 110, 110, 0.4);
+  --main-hover-color: rgba(238, 16, 176, 0.5);
+  --sub-hover-color: rgba(14, 158, 239, 0.5);
+
+  //  statuses
+  --error-text-color: red;
+  //  FONTSrgb(225, 21, 21)
+  --main-to-sub-gradint: linear-gradient(
+    90deg,
+    var(--main-color),
+    var(--sub-color)
+  );
+
+  --transition-slow: 0.4s;
+  --transition-medium: 0.2s;
+  --transition-faster: 0.1s;
+
+  --t--big-size: 96px;
+  --t1-size: 40px;
+  --h1-size: 32px;
+  --h2-size: 24px;
+  --h3-size: 20px;
+  --h4-size: 16px;
+  --text-big-size: 20px;
+  --text-medium-size: 16px;
+  --text--small-size: 12px;
+}

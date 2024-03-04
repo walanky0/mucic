@@ -1,0 +1,32 @@
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 80px 10px 50px 10px;
+}
+.content {
+}
+
+.title {
+  margin-bottom: 20px;
+  font-size: var(--h2-size);
+  font-family: var(--title-font);
+  text-align: center;
+  font-weight: 700;
+}
+.form {
+  background: var(--card-backgorund-2);
+  max-width: 433px;
+  padding: 20px;
+  border-radius: 8px;
+}
+.field {
+  margin-bottom: 20px;
+}
+
+.confirm-password {
+}
+
+.submit-button {
+}

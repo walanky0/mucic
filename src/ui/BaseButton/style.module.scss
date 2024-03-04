@@ -1,0 +1,33 @@
+.button {
+  border: none;
+  outline: none;
+  width: 100%;
+  padding: 2px;
+  border-radius: 4px;
+  background: var(--main-to-sub-gradint);
+  color: var(--text-color);
+  cursor: pointer;
+  transition: var(--transition-medium);
+  &:hover:not(:disabled) {
+    transform: scale(1.05);
+    .content {
+      background: var(--card-backgorund);
+    }
+  }
+  &:active:not(:disabled) {
+    transform: scale(0.98);
+  }
+
+  &:disabled {
+    cursor: default;
+    opacity: 0.7;
+  }
+}
+
+.content {
+  display: block;
+  position: relative;
+  z-index: 1;
+  padding: 12px 3px;
+  transition: var(--transition-slow);
+}

@@ -1,5 +1,9 @@
+import '@/assets/styles/global.scss';
+import 'react-toastify/dist/ReactToastify.css';
+
 import type { Metadata } from 'next';
 import { Inter, Roboto } from 'next/font/google';
+import { ToastContainer } from 'react-toastify';
 
 const inter = Inter({ subsets: ['latin'], variable: '--title-font' });
 const roboto = Roboto({
@@ -21,7 +25,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.variable} ${roboto.variable}`}>{children}</body>
+      <body className={`${inter.variable} ${roboto.variable}`}>
+        {children}
+
+        <ToastContainer theme="dark" closeOnClick />
+      </body>
     </html>
   );
 }

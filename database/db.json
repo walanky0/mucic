@@ -1,0 +1,9 @@
+{
+    "users": [
+        {
+            "name": "Илья Алпатов",
+            "email": "test@mail.ru",
+            "password": "qwerty123"
+        }
+    ]
+}

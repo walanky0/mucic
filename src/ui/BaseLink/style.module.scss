@@ -1,0 +1,10 @@
+.content {
+  color: var(--sub-color);
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
+  &:visited {
+    color: var(--main-color);
+  }
+}
